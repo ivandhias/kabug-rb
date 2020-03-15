@@ -1,5 +1,5 @@
 # kabug-rb
-Repositório do projeto kabug com Cicimber, Capybara e Ruby
+Repositório do projeto kabug com Cucumber, Capybara e Ruby
 
 ## Como executar o projeto
 
@@ -10,7 +10,7 @@ Repositório do projeto kabug com Cicimber, Capybara e Ruby
 gem install bundler
 `
 
-### Instalar as dependências do Ruby (propjeto)
+### Instalar as dependências do Ruby (projeto)
 `
 bundle install
 `
@@ -18,7 +18,7 @@ bundle install
 ### Executar localmente (Meu PC)
 `
 bundle exec cucumber 
-
+`
 ### Executar no servidor de CI (gerando reposts JSON)
 `
 bundle exec cucumber -p ci
